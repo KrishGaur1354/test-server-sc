@@ -3,30 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Snap-Craft</title>
+    <title>Snap-Craft - Python Photo Editor</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
         .container {
-            text-align: center;
-            background-color: white;
-            padding: 2rem;
+            background-color: #f9f9f9;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        h1 {
-            color: #333;
+        h1, h2 {
+            color: #2c3e50;
         }
         .download-btn {
             display: inline-block;
-            background-color: #4CAF50;
+            background-color: #3498db;
             color: white;
             padding: 10px 20px;
             text-decoration: none;
@@ -36,15 +34,74 @@
             transition: background-color 0.3s;
         }
         .download-btn:hover {
-            background-color: #45a049;
+            background-color: #2980b9;
+        }
+        .privacy-link {
+            display: block;
+            margin-top: 20px;
+            color: #666;
+            text-decoration: none;
+        }
+        .privacy-link:hover {
+            text-decoration: underline;
+        }
+        #privacy-policy {
+            display: none;
+        }
+        #privacy-policy:target {
+            display: block;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Snap-Craft</h1>
-        <p>Click the button below to download Snap-Craft:</p>
-        <a href="main.exe" class="download-btn" download>Download Snap-Craft</a>
+        <h1>Snap-Craft - Python Photo Editor</h1>
+        <p>Snap-Craft is a powerful and user-friendly photo editor built in Python, utilizing the Tkinter library for its graphical user interface (GUI).</p>
+        <a href="#privacy-policy" class="privacy-link">Privacy Policy</a>
     </div>
+
+    <div id="privacy-policy">
+        <h2>Privacy Policy for Snap Craft - Python Photo Editor</h2>
+        <p><strong>SnapCraft</strong> ("we", "us", "our") is a powerful and user-friendly photo editor built in Python, utilizing the Tkinter library for its graphical user interface (GUI). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our application.</p>
+        
+        <h3>Table of Contents</h3>
+        <ol>
+            <li><a href="#collect">Information We Collect</a></li>
+            <li><a href="#use">How We Use Your Information</a></li>
+            <li><a href="#share">Sharing Your Information</a></li>
+            <li><a href="#security">Security of Your Information</a></li>
+            <li><a href="#rights">Your Rights</a></li>
+            <li><a href="#changes">Changes to This Privacy Policy</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ol>
+
+        <h3 id="collect">1. Information We Collect</h3>
+        <p><strong>Personal Information</strong>: Snap Craft does not directly collect any personal information. However, the application may access personal information stored on your device, such as images and files, to provide its functionality. This information is only used locally on your device and is not transmitted to us.</p>
+        <p><strong>Usage Data</strong>: We may collect non-personal information about how you use Snap Craft, such as the features you use and the time spent on the application. This data helps us improve the app and understand user preferences.</p>
+
+        <h3 id="use">2. How We Use Your Information</h3>
+        <p>The information accessed by Snap Craft is used solely to provide the application's functionality, such as editing and saving images. We do not collect, store, or transmit any personal information to our servers.</p>
+
+        <h3 id="share">3. Sharing Your Information</h3>
+        <p>Snap Craft does not share your personal information with any third parties. All data processing is performed locally on your device.</p>
+
+        <h3 id="security">4. Security of Your Information</h3>
+        <p>We take reasonable measures to protect the information accessed by Snap Craft. However, please be aware that no security measures are perfect or impenetrable. We cannot guarantee the security of your data during transmission over the internet or while stored on your device.</p>
+
+        <h3 id="rights">5. Your Rights</h3>
+        <p>Since Snap Craft does not collect or store personal information, you do not need to request access, correction, or deletion of your data. All data remains on your device and under your control.</p>
+
+        <h3 id="changes">6. Changes to This Privacy Policy</h3>
+        <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the new Privacy Policy on our website. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+        <h3 id="contact">7. Contact Us</h3>
+        <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at: snapcraft-v1@gmail.com</p>
+
+        <h3>Desktop Bridge or Win32 Products</h3>
+        <p>If Snap Craft is distributed as a Desktop Bridge or Win32 product, please be aware that the application may have access to additional personal information stored on your device. Our commitment to protecting your privacy remains the same, and no personal information is collected, stored, or transmitted by Snap Craft.</p>
+
+        <p>By using Snap Craft, you agree to the terms of this Privacy Policy.</p>
+    </div>
+    <a href="main.exe" class="download-btn" download>Download Snap-Craft</a>
 </body>
 </html>
